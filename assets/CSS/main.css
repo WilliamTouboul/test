@@ -1,0 +1,95 @@
+/* Universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ROOT */
+:root {
+    /* Color */
+    --bg-color: #f8eade;
+    --primary-color: #4959FE;
+    --black: #020C16;
+    --white: #F4F4F4;
+    --highlight-color-purple: #D2B6FF;
+    --highlight-color-blue: #ABC5FE;
+    --highlight-color-red: #FFBAAA;
+    --highlight-color-yellow: #FACD1C;
+    --highlight-color-yellow-faded: #FFEA9F;
+    /* Spacing */
+    --sp-1: 0.25rem;
+    --sp-2: 0.5rem;
+    --sp-3: 0.75rem;
+    --sp-4: 1rem;
+    --sp-5: 1.5rem;
+    /*Font-size*/
+    --fs-h1: 4rem;
+    /* 64 */
+    --fs-h2: 3rem;
+    /* 48 */
+    --fs-h3: 2rem;
+    /* 32 */
+    --fs-text: 1.25rem;
+    /* 16 */
+}
+
+/* Fonts */
+/* Montserrat : 100-900 ---- Syne : 400-800 */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat Italic';
+    src: url('../Fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Syne";
+    src: url('../Fonts/Syne/Syne-VariableFont_wght.ttf') format('truetype');
+}
+
+h1 {
+    font-family: "Syne";
+    font-weight: 600;
+    font-size: var(--fs-h1);
+    color: var(--black);
+    font-optical-sizing: auto;
+}
+
+h2 {
+    font-family: "Syne";
+    font-Weight: 500;
+    font-size: var(--fs-h2);
+    color: var(--black);
+    font-optical-sizing: auto;
+}
+
+h3 {
+    font-family: "Syne";
+    font-Weight: 500;
+    font-size: var(--fs-h3);
+    color: var(--black);
+    font-optical-sizing: auto;
+}
+
+p {
+    font-family: "Montserrat";
+    font-Weight: 500;
+    font-size: var(--fs-text);
+    color: var(--black);
+    font-optical-sizing: auto;
+}
+
+
+html{
+    background-color: var(--bg-color);
+}
+/* STYLE */
+.header{
+    height: 100vh;
+    width: 100%;
+
+}
